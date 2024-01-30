@@ -1,0 +1,41 @@
+PATH
+  remote: .
+  specs:
+    ipgeobase (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.8.6)
+      public_suffix (>= 2.0.2, < 6.0)
+    date (3.3.4)
+    minitest (5.21.2)
+    nokogiri (1.16.0-x86_64-darwin)
+      racc (~> 1.4)
+    nokogiri-happymapper (0.10.0)
+      nokogiri (~> 1.5)
+    open-uri (0.4.1)
+      stringio
+      time
+      uri
+    public_suffix (5.0.4)
+    racc (1.7.3)
+    rake (13.1.0)
+    stringio (3.1.0)
+    time (0.3.0)
+      date
+    uri (0.13.0)
+
+PLATFORMS
+  x86_64-darwin-21
+
+DEPENDENCIES
+  addressable
+  ipgeobase!
+  minitest (~> 5.0)
+  nokogiri-happymapper
+  open-uri
+  rake (~> 13.0)
+
+BUNDLED WITH
+   2.2.33
