@@ -11,4 +11,5 @@ gem "minitest", "~> 5.0"
 gem "addressable"
 gem "nokogiri-happymapper"
 gem 'open-uri'
+gem 'simplecov', require: false, group: :test
 
